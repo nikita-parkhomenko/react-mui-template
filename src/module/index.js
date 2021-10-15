@@ -9,10 +9,10 @@ import { history } from '../constants/history';
 // components
 import Home from './home';
 
-export default memo(function AppRoot () {
-    return <Router history={history}>
-        <Switch>
-            <Route exact path={HOME} component={Home} />
-        </Switch>
-    </Router>
+export default memo(function AppRoot() {
+  return <Router history={history}>
+    <Switch>
+      <Route exact path={HOME} component={Home} />
+    </Switch>
+  </Router>;
 });
